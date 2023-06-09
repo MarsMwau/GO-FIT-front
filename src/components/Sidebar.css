@@ -101,18 +101,5 @@
       position: relative;
       margin-top: 6rem;
     }
-    .bars{
-      display: flex;
-      position: fixed;
-      top: 2rem;
-      left:60%;
-      background:#ffe0e0;
-      padding:10px;
-      border-radius: 10px;
-      z-index: 9;
-    }
-    .close{
-      left: -60%;
-    }
   }
   

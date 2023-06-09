@@ -1,15 +1,7 @@
 .dashboard {
-    max-width: 80%;
-    border: 1px solid #8f1313;
-    border-radius: 1px;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-  }
-  
-  .dashboard h1 {
-    text-align: center;
   }
 
   @media screen and (max-width: 1200px) {
