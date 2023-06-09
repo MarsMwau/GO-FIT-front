@@ -11,22 +11,25 @@ const Card = ({ title, bodyParts, onDelete }) => {
       prevSelectedBodyPart === bodyPart ? null : bodyPart
     );
   };
-  
 
   const handleDeleteClick = (event) => {
     event.stopPropagation();
     onDelete();
   };
 
+  const handleCloseDetails = () => {
+    setSelectedBodyPart(null);
+  };
+
   return (
     <div className="Card">
       <h3>{title}</h3>
       {bodyParts && (
-        <div className="ExpandedCard">
+        <div className="BodyParts">
           {bodyParts.map((bodyPart) => (
             <div
               key={bodyPart.body_part_id}
-              className={`body-part ${
+              className={`BodyPart ${
                 selectedBodyPart === bodyPart ? "active" : ""
               }`}
               onClick={handleBodyPartClick(bodyPart)}
@@ -37,8 +40,8 @@ const Card = ({ title, bodyParts, onDelete }) => {
         </div>
       )}
       {selectedBodyPart && (
-        <div className="ExpandedCard">
-          <ExerciseDetails exercise={selectedBodyPart.exercise} />
+        <div className="ExerciseDetailsPopup">
+          <ExerciseDetails exercise={selectedBodyPart.exercise} onClose={handleCloseDetails} />
         </div>
       )}
       <button onClick={handleDeleteClick}>Delete</button>
