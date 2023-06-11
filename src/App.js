@@ -4,6 +4,7 @@ import './App.css';
 // import SignupLogin from './components/SignupLogin';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
+import Rightside from './components/Rightside';
 
 // const App = () => {
 //   return (
@@ -31,6 +32,7 @@ function App() {
       <div className="AppGlass">
         <Sidebar/>
         <Dashboard/>
+        <Rightside />
       </div>
     </div>
   );

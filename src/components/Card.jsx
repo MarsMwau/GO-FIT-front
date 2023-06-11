@@ -1,50 +1,35 @@
 import React, { useState } from "react";
-import ExerciseDetails from "./ExerciseDetails";
 import "./Card.css";
+import ExerciseDetails from "./ExerciseDetails";
 
-const Card = ({ title, bodyParts, onDelete }) => {
-  const [selectedBodyPart, setSelectedBodyPart] = useState(null);
+const Card = ({ bodyPart }) => {
+  const [isClicked, setIsClicked] = useState(false);
 
-  const handleBodyPartClick = (bodyPart) => (event) => {
-    event.stopPropagation();
-    setSelectedBodyPart((prevSelectedBodyPart) =>
-      prevSelectedBodyPart === bodyPart ? null : bodyPart
-    );
+  const handleClick = () => {
+    setIsClicked(true);
   };
 
-  const handleDeleteClick = (event) => {
-    event.stopPropagation();
-    onDelete();
-  };
-
-  const handleCloseDetails = () => {
-    setSelectedBodyPart(null);
+  const handleClose = () => {
+    setIsClicked(false);
   };
 
   return (
     <div className="Card">
-      <h3>{title}</h3>
-      {bodyParts && (
-        <div className="BodyParts">
-          {bodyParts.map((bodyPart) => (
-            <div
-              key={bodyPart.body_part_id}
-              className={`BodyPart ${
-                selectedBodyPart === bodyPart ? "active" : ""
-              }`}
-              onClick={handleBodyPartClick(bodyPart)}
-            >
-              <h4>{bodyPart.body_part_name}</h4>
-            </div>
-          ))}
-        </div>
+      <img src={bodyPart.body_part_image} alt={bodyPart.body_part_name} />
+      <h2>{bodyPart.body_part_name}</h2>
+
+      {isClicked && (
+        <ExerciseDetails
+          exercises={bodyPart.exercises}
+          onClose={handleClose}
+        />
       )}
-      {selectedBodyPart && (
-        <div className="ExerciseDetailsPopup">
-          <ExerciseDetails exercise={selectedBodyPart.exercise} onClose={handleCloseDetails} />
-        </div>
+
+      {!isClicked && (
+        <button className="ShowExercisesButton" onClick={handleClick}>
+          See Exercises
+        </button>
       )}
-      <button onClick={handleDeleteClick}>Delete</button>
     </div>
   );
 };

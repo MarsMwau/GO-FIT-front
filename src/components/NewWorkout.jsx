@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import "./NewWorkout.css";
 
 const NewWorkout = () => {
+  const [showForm, setShowForm] = useState(false);
   const [day, setDay] = useState("");
   const [bodyParts, setBodyParts] = useState([]);
   const [selectedBodyPart, setSelectedBodyPart] = useState("");
@@ -63,11 +65,23 @@ const NewWorkout = () => {
       });
   };
 
+  const handleFormToggle = () => {
+    setShowForm(!showForm);
+  };
+
   return (
-    <div>
+    <div className="Newworkout">
       <h2>New Workout</h2>
-      <form onSubmit={handleFormSubmit}>
-        <label htmlFor="day">Day:</label>
+      {!showForm && (
+        <button className="FormToggle" onClick={handleFormToggle}>
+          Create New Workout
+        </button>
+      )}
+      {showForm && (
+        <div className="Form-popup">
+          <div className="Form-content">
+        <form onSubmit={handleFormSubmit}>
+          <label htmlFor="day">Day:</label>
         <select
           id="day"
           value={day}
@@ -135,16 +149,22 @@ const NewWorkout = () => {
         ></textarea>
 
         <label htmlFor="imageURL">Image URL:</label>
-        <input
+        <textarea
           type="text"
           id="imageURL"
           value={imageURL}
           onChange={(e) => setImageURL(e.target.value)}
           required
-        />
+          ></textarea>
 
-        <button type="submit">Add Workout</button>
-      </form>
+          <button type="submit">Add Workout</button>
+          <button className="FormToggle" onClick={handleFormToggle}>
+            Cancel
+          </button>
+        </form>
+        </div>
+        </div>
+      )}
     </div>
   );
 };
