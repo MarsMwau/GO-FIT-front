@@ -38,6 +38,7 @@
 .ExerciseDetailsHeader .CloseButton {
   margin-bottom: 7rem;
 }
+
 .ExerciseDetailsBody {
   display: flex;
   align-items: flex-start;
@@ -45,9 +46,18 @@
 
 .exercise-image {
   flex: 1;
+  margin-right: 0.2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.exercise-image img {
+  height: auto;
+  width: 400px;
+  max-height: 100%;
+  max-width: 100%;
   object-fit: contain;
   border-radius: 5px;
-  margin-right: 1rem;
 }
 
 .details {
@@ -61,7 +71,6 @@
 .details p {
   margin-top: 0;
 }
-
 
 .weights-container,
 .sets-container,
@@ -137,181 +146,3 @@ textarea {
     width: 80%;
   }
 }
-
-
-
-
-
-
-/* 
-.ExerciseDetails {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  width: 60%;
-  height: 60%;
-  z-index: 9999;
-}
-
-.ExerciseImageContainer {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ExerciseImage {
-  width: 50%;
-  height: 50%;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.ExerciseContent {
-  flex: 1;
-  padding: 20px
-}
-
-.ExerciseContent h3{
-  font-size: 20px;
-  margin-top: 0;
-}
-
-.ExerciseNavigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.ExerciseNavigation button {
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.CloseButton {
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-
-.ExerciseDetails {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  width: 80%;
-  height: 80%;
-  z-index: 9999;
-}
-
-.ExerciseImageContainer {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.ExerciseImage {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 5px;
-}
-
-.ExerciseContent {
-  flex: 1;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-.ExerciseContent h3 {
-  font-size: 20px;
-  margin-top: 0;
-}
-
-.ExerciseContent div {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
-}
-
-.ExerciseContent label {
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-.ExerciseContent button {
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.ExerciseContent span {
-  margin: 0 10px;
-}
-
-.ExerciseContent textarea {
-  width: 100%;
-  height: 80px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 5px;
-  resize: none;
-}
-
-.ExerciseNavigation {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.ExerciseNavigation button {
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.CloseButton {
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-.SaveButton {
-  background-color: #ccc;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  margin-top: 10px;
-} */

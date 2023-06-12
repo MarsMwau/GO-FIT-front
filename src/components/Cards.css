@@ -5,6 +5,17 @@
 }
 
 .WorkoutCardContainer {
-  margin: 10px;
+  margin: 6px;
 }
 
+.Cards::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.Cards::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.Cards::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}

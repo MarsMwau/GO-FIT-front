@@ -232,11 +232,12 @@ const ExerciseDetails = ({ exercises, onClose }) => {
           </button>
         </div>
         <div className="ExerciseDetailsBody">
-        <img
+          <div className="exercise-image">
+          <img
           src={currentExercise.exercise_image}
           alt={currentExercise.exercise_name}
-          className="exercise-image"
         />
+          </div>
         <div className="details">
           <h3>Exercise Type: {currentExercise.exercise_type}</h3>
           <p>Instructions: {currentExercise.exercise_description}</p>

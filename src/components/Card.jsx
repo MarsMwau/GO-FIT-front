@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Card.css";
 import ExerciseDetails from "./ExerciseDetails";
 
-const Card = ({ bodyPart }) => {
+const Card = ({ bodyPart, onDelete }) => {
   const [isClicked, setIsClicked] = useState(false);
 
   const handleClick = () => {
@@ -13,16 +13,18 @@ const Card = ({ bodyPart }) => {
     setIsClicked(false);
   };
 
+  const handleDeleteClick = (event) => {
+    event.stopPropagation();
+    onDelete();
+  };
+
   return (
     <div className="Card">
       <img src={bodyPart.body_part_image} alt={bodyPart.body_part_name} />
       <h2>{bodyPart.body_part_name}</h2>
 
       {isClicked && (
-        <ExerciseDetails
-          exercises={bodyPart.exercises}
-          onClose={handleClose}
-        />
+        <ExerciseDetails exercises={bodyPart.exercises} onClose={handleClose} />
       )}
 
       {!isClicked && (
@@ -30,6 +32,7 @@ const Card = ({ bodyPart }) => {
           See Exercises
         </button>
       )}
+      <button onClick={handleDeleteClick}>Delete</button>
     </div>
   );
 };

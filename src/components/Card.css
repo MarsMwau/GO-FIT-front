@@ -1,5 +1,5 @@
 .Card {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   border-radius: 5px;
   padding: 10px;
   text-align: center;
@@ -7,15 +7,15 @@
 
 .Card h2 {
   margin: 0;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .Card img {
-  width: 200px;
+  width: 150px;
   height: 200px;
   object-fit: cover;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 3px;
 }
 
 .ShowExercisesButton {

@@ -7,8 +7,8 @@ import {
 
 // Sidebar Data
 export const SidebarData = [
-  { icon: UilEstate, heading: "My Workouts" },
-  { icon: UilHourglass, heading: "Body Parts" },
-  { icon: UilDumbbell, heading: "Exercises" },
-  { icon: UilUser, heading: "Account" },
+  { icon: UilEstate, heading: "My Workouts", path: "/my-workouts" },
+  { icon: UilHourglass, heading: "Body Parts", path: "/body-parts" },
+  { icon: UilDumbbell, heading: "Exercises", path: "/exercises" },
+  { icon: UilUser, heading: "Account", path: "/account" },
 ];
