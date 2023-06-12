@@ -37,6 +37,13 @@ User Profile
 4. Update existing workout plans.
 5. Delete workout plans.
 
+## Technologies Used
+1. React
+2. Javascript
+3. CSS
+4. Icons
+5. Go Fit Backend Server
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch.
