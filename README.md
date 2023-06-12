@@ -12,6 +12,9 @@ Workout plans
 Exercise Details
 ![Screenshot from 2023-06-12 23-16-08](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/8b5642de-89d8-4a0b-90a4-7ed5dd132eff)
 
+Body Parts
+![Screenshot from 2023-06-12 23-19-29](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/2338bb19-cffc-4e79-99de-1a0a01dcd169)
+
 
 ## Getting Started
 1. Clone the repository:
