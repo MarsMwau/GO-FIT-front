@@ -1,0 +1,54 @@
+.Exercises {
+    padding: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .Search-bar input {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .Exercise-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .Exercise-card {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .Exercise-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 2px;
+  }
+  
+  .Exercise-card h3 {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  
+  .Exercise-card p {
+    font-size: 15px;
+    color: #111111;
+  }
+  

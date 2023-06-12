@@ -53,13 +53,3 @@ const Cards = () => {
 };
 
 export default Cards;
-
-
-
-
-
-// delete '/workoutplans/:id' do
-//         workout_plan = WorkoutPlan.find(params[:id])
-//         workout_plan.destroy
-//         { message: 'Workout plan deleted successfully' }.to_json
-//     end 

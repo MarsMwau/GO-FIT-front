@@ -6,12 +6,10 @@
     #f17c99 51.55%,
     #ee65e7 90.85%
   );
-  min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   font-family: 'Inter', sans-serif;
-  overflow: auto;
 }
 
 .AppGlass {
@@ -21,14 +19,13 @@
   background: var(--glass);
   border-radius: 2rem;
   gap: 16px;
-  grid-template-columns: 12rem auto 8rem;
+  grid-template-columns: 12rem 1fr 8rem;
   overflow-y: auto;
 }
 
 @media screen and (max-width: 1200px) {
   .AppGlass {
-    grid-template-columns: 10% 65% auto;
-    overflow: hidden;
+    grid-template-columns: 10% 1fr;
   }
 }
 
@@ -37,4 +34,3 @@
     grid-template-columns: 1fr;
   }
 }
-

@@ -1,0 +1,42 @@
+  
+  .User h2 {
+    font-size: 24px;
+    margin: 20px 15px 36px;
+  }
+  
+  .User-icon img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+  }
+  
+  .User-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .User-details h3,
+  .User-details h4,
+  .User-details p {
+    margin: 5px 0;
+  }
+  
+  .User-details h3 {
+    font-size: 20px;
+    font-weight: normal;
+  }
+  
+  .User-details h4,
+  .User-details p {
+    font-size: 16px;
+    color: #0a0a0a;
+  }
+  
+  .User-details strong {
+    font-weight: bold;
+  }
+  
