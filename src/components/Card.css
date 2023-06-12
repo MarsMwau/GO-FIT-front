@@ -3,6 +3,7 @@
   border-radius: 5px;
   padding: 10px;
   text-align: center;
+  color: rgb(255, 38, 0);
 }
 
 .Card h2 {
@@ -18,11 +19,30 @@
   margin-bottom: 3px;
 }
 
-.ShowExercisesButton {
-  background-color: #ccc;
+.Card .ShowExercisesButton {
+  background-color: #fc3c02;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
   cursor: pointer;
+  color:white;
+}
+
+.Card .ShowExercisesButton:hover {
+  background-color: #ffffff;
+  color: #fc3c02d8;
+}
+
+.Card button{
+  background-color: #fc0202;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  color:white;
+}
+.Card button:hover {
+  background-color: #ffffff;
+  color: #640202a8;
 }
 

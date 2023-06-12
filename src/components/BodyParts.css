@@ -1,5 +1,6 @@
 .Bodyparts {
   padding: 20px;
+  color: rgb(255, 123, 0);
 }
 
 .Bodyparts h2 {
@@ -16,7 +17,6 @@
 .Bodyparts .CardContainer .Card {
   width: calc(33.33% - 10px);
   margin: 5px;
-  border: 1px solid #ccc;
   border-radius: 4px;
   padding: 10px;
   box-sizing: border-box;
@@ -37,5 +37,5 @@
 
 .Bodyparts .CardContainer .Card p {
   font-size: 17px;
-  color: #030303;
+  color: #fdf7f7;
 }

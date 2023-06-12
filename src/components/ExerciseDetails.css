@@ -13,7 +13,7 @@
 
 .ExerciseDetailsContent {
   position: relative;
-  background-color: #fff;
+  background-color: #070707;
   padding: 2rem;
   width: 80%;
   height: 80%;
@@ -85,9 +85,10 @@
 .reps-container button {
   font-weight: bold;
   padding: 5px 10px;
-  background-color: #dddada;
+  background-color: #f35f09;
   border: none;
   cursor: pointer;
+  color: white;
 }
 
 textarea {
@@ -95,6 +96,7 @@ textarea {
   height: 100px;
   margin-top: 10px;
   resize: vertical;
+  color: white;
 }
 
 .ExerciseNavigation {
@@ -104,7 +106,7 @@ textarea {
 }
 
 .ExerciseNavigation button {
-  background-color: #ccc;
+  background-color: #ffb583;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;

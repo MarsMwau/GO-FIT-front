@@ -5,6 +5,7 @@
   h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    color: white;
   }
   
   .Search-bar {
@@ -28,7 +29,6 @@
   .Exercise-card {
     width: calc(33.33% - 10px);
     margin: 5px;
-    border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px;
     box-sizing: border-box;
@@ -45,10 +45,11 @@
   .Exercise-card h3 {
     font-size: 25px;
     margin-bottom: 5px;
+    color: white;
   }
   
   .Exercise-card p {
     font-size: 15px;
-    color: #111111;
+    color: #e02707ec;
   }
   

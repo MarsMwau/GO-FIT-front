@@ -2,9 +2,9 @@
   color: var(--black);
   background: linear-gradient(
     106.37deg,
-    #eccece 29.63%,
-    #f17c99 51.55%,
-    #ee65e7 90.85%
+    #000000 100%,
+    #6b4631 31.55%,
+    #be3e0c 60.85%
   );
   display: flex;
   align-items: flex-start;
@@ -14,10 +14,10 @@
 
 .AppGlass {
   display: grid;
-  height: 97%;
-  width: 97%;
+  height: 100%;
+  width: 100%;
   background: var(--glass);
-  border-radius: 2rem;
+  border-radius: 1rem;
   gap: 16px;
   grid-template-columns: 12rem 1fr 8rem;
   overflow-y: auto;

@@ -243,18 +243,18 @@ const ExerciseDetails = ({ exercises, onClose }) => {
           <p>Instructions: {currentExercise.exercise_description}</p>
           <div className="weights-container">
             <span>Weight: {currentExercise.weights} kgs</span>
-            <button onClick={handleDecreaseWeights}>-</button>
-            <button onClick={handleIncreaseWeights}>+</button>
+            <button onClick={handleDecreaseWeights}> -</button>
+            <button onClick={handleIncreaseWeights}> +</button>
           </div>
           <div className="sets-container">
             <span>Sets: {currentExercise.sets}</span>
-            <button onClick={handleDecreaseSets}>-</button>
-            <button onClick={handleIncreaseSets}>+</button>
+            <button onClick={handleDecreaseSets}> -</button>
+            <button onClick={handleIncreaseSets}> +</button>
           </div>
           <div className="reps-container">
             <span>Reps: {currentExercise.reps}</span>
-            <button onClick={handleDecreaseReps}>-</button>
-            <button onClick={handleIncreaseReps}>+</button>
+            <button onClick={handleDecreaseReps}> -</button>
+            <button onClick={handleIncreaseReps}> +</button>
           </div>
           <div>
             <textarea

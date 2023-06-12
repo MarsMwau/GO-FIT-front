@@ -26,11 +26,12 @@
 }
 .Newworkout .Form-popup .Form-content {
   position: relative;
-  background-color: #fff;
+  background-color: #000000;
   padding: 2rem;
   max-width: 80%;
   max-height: 80%;
   overflow-y: auto;
+  color: rgb(255, 85, 18);
 }
 
 .Newworkout .Form-popup .Form-content form {
@@ -59,14 +60,20 @@
   .Newworkout .Form-popup .Form-content button[type="submit"] {
     width: 100%;
     padding: 0.5rem;
-    background-color: #3f51b5;
+    background-color: #000000;
     color: #fff;
     border: none;
     border-radius: 3px;
     cursor: pointer;
   }
   
-  .Newworkout .Form-popup .Form-content button[type="submit"]:hover {
-    background-color: #303f9f;
+  .Newworkout .Form-popup .Form-content {
+    background-color: #000000;
   }
+
+  .Newworkout .Form-popup .Form-content .FormToggle {
+    background-color: #b10d0d;
+    color: black;
+  }
+  
   
