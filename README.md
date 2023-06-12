@@ -33,5 +33,5 @@ GoFit is a fitness application that allows users to view and manage workout plan
 *****
 ## LICENSE
 MIT License
-Copyright (c) YEAR Author
+Copyright (c) Y2023 MARTHA NWAU
 Permission is hereby granted, free of charge, to any person obtaining a copy.
