@@ -15,6 +15,9 @@ Exercise Details
 Body Parts
 ![Screenshot from 2023-06-12 23-19-29](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/2338bb19-cffc-4e79-99de-1a0a01dcd169)
 
+Exercises
+![Screenshot from 2023-06-12 23-22-28](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/48fd8998-e5b2-4480-a2f6-40816c57c36c)
+
 
 ## Getting Started
 1. Clone the repository:
