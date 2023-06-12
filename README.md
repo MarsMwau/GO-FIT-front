@@ -5,6 +5,11 @@ This is the frontend of the GoFit application, built with React.
 ## Description
 GoFit is a fitness application that allows users to view and manage workout plans as well as browse available exercises. The frontend provides a user interface to interact with the application, fetching and displaying workout plans and exercises from the backend APIs.
 
+## Screenshots
+Workout plans
+![Screenshot from 2023-06-12 23-12-46](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/f0653ddd-f699-4d38-967c-b589078ed139)
+
+
 ## Getting Started
 1. Clone the repository:
 2. Install dependencies:
