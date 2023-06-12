@@ -27,4 +27,11 @@ GoFit is a fitness application that allows users to view and manage workout plan
 4. Push your changes to your forked repository.
 5. Submit a pull request.
 
-Feel free to modify this README.md file according to your specific project requirements and provide more detailed instructions or additional sections as needed.
+*****
+## Contact Information
+* Email : marthamumbua16@gmail.com
+*****
+## LICENSE
+MIT License
+Copyright (c) YEAR Author
+Permission is hereby granted, free of charge, to any person obtaining a copy.
