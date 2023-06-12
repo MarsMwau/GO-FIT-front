@@ -7,7 +7,7 @@ GoFit is a fitness application that allows users to view and manage workout plan
 
 ## Screenshots
 Workout plans
-![Screenshot from 2023-06-12 23-12-46](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/f0653ddd-f699-4d38-967c-b589078ed139)
+![Screenshot from 2023-06-12 23-12-46](https://github.com/MarsMwau/GO-FIT-back/assets/115712038/a4cf1676-5169-4e8b-9ae9-86c73704e838)
 
 
 ## Getting Started
