@@ -236,7 +236,7 @@ const NewWorkout = () => {
     <div className="Newworkout">
       <h2>New Workout</h2>
       {!showForm && (
-        <button className="FormToggle" onClick={handleFormToggle}>
+        <button className="FormToggleOpen" onClick={handleFormToggle}>
           Create New Workout
         </button>
       )}
@@ -303,7 +303,7 @@ const NewWorkout = () => {
                 required
               ></textarea>
 
-              <button type="submit">Add Workout</button>
+              <button className="Submiting" type="submit">Add Workout</button>
               <button className="FormToggle" onClick={handleFormToggle}>
                 Cancel
               </button>

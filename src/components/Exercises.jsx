@@ -41,8 +41,8 @@ const Exercises = () => {
           <div className="Exercise-card" key={exercise.id}>
             <img src={exercise.exercise_image} alt={exercise.exercise_name} />
             <h3>{exercise.exercise_name}</h3>
-            <p>{exercise.exercise_type}</p>
-            <p>{exercise.exercise_description}</p>
+            <p>Exercise Type: {exercise.exercise_type}</p>
+            <p>Instructions: {exercise.exercise_description}</p>
             <p>Weight: {exercise.weight_kgs || 'N/A'}</p>
             <p>Sets and Reps: {exercise.sets} sets, {exercise.reps} reps</p>
           </div>

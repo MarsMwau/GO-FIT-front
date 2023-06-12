@@ -5,10 +5,9 @@
     width: 95%;
     justify-content: space-evenly;
 }
-.RightSide .Rightside-content h3{
+.Rightside-content h3{
     font-size: 1.5rem;
-    color: black;
-    background-color: aliceblue;
+    color: rgb(255, 255, 255);
 
 }
 

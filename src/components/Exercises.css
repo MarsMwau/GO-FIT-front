@@ -6,6 +6,7 @@
     font-size: 24px;
     margin-bottom: 10px;
     color: white;
+    font-family: "DM Sans";
   }
   
   .Search-bar {
@@ -32,6 +33,7 @@
     border-radius: 4px;
     padding: 10px;
     box-sizing: border-box;
+    
   }
   
   .Exercise-card img {
@@ -41,15 +43,19 @@
     border-radius: 4px;
     margin-bottom: 2px;
   }
+
   
   .Exercise-card h3 {
     font-size: 25px;
     margin-bottom: 5px;
-    color: white;
+    color: #e02707ec;
+    font-family: "Short Stack";
+    
   }
   
   .Exercise-card p {
     font-size: 15px;
-    color: #e02707ec;
+    color: white;
+    font-family: "Fira Mono";
   }
   

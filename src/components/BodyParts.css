@@ -6,6 +6,7 @@
 .Bodyparts h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  font-family: "DM Sans";
 }
 
 .Bodyparts .CardContainer {
@@ -30,12 +31,18 @@
   margin-bottom: 3px;
 }
 
+.Bodyparts .CardContainer .Card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+
 .Bodyparts .CardContainer .Card h3 {
   font-size: 28px;
   margin-bottom: 2px;
+  font-family: "Short Stack";
 }
 
 .Bodyparts .CardContainer .Card p {
   font-size: 17px;
   color: #fdf7f7;
+  font-family: "Fira Mono";
 }

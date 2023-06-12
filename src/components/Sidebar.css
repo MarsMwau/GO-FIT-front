@@ -16,10 +16,11 @@
   display: flex;
   height: 5rem;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 36px;
   gap: 1rem;
   align-items: center;
   justify-content: center;
+  font-family: "Cabin Sketch";
 }
 
 .logo > span > span {

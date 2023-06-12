@@ -9,6 +9,7 @@
 .Card h2 {
   margin: 0;
   padding: 5px 0;
+  font-family: "Volkhov";
 }
 
 .Card img {
@@ -18,6 +19,10 @@
   border-radius: 5px;
   margin-bottom: 3px;
 }
+
+/* .Card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+} */
 
 .Card .ShowExercisesButton {
   background-color: #fc3c02;

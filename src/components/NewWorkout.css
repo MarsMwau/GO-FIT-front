@@ -10,6 +10,17 @@
   .Newworkout h2 {
     text-align: center;
     margin-bottom: 1rem;
+    font-family: "DM Sans";
+    font-size: 26px;
+  }
+  .Newworkout .FormToggleOpen {
+    font-weight: bold;
+  padding: 6px 11px;
+  background-color: #f35f09;
+  border: none;
+  cursor: pointer;
+  color: white;
+  border-radius: 5px;
   }
 
   .Newworkout .Form-popup {
@@ -69,6 +80,11 @@
   
   .Newworkout .Form-popup .Form-content {
     background-color: #000000;
+  }
+
+  .Newworkout .Form-popup .Form-content .Submiting {
+    background-color: #0d62b1;
+    color: rgb(255, 255, 255);
   }
 
   .Newworkout .Form-popup .Form-content .FormToggle {

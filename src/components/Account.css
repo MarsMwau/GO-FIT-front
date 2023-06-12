@@ -1,6 +1,10 @@
-  .User h2 {
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@700&family=Caveat:wght@700&family=DM+Sans&family=Dancing+Script:wght@500&family=Fira+Mono:wght@400;500;700&family=Sedgwick+Ave+Display&family=Short+Stack&family=Volkhov:wght@700&display=swap');
+
+
+.User h2 {
     font-size: 24px;
     margin: 20px 15px 36px;
+    font-family: "Cabin Sketch";
   }
   
   .User-icon img {
@@ -17,12 +21,15 @@
     align-items: center;
     margin-top: 20px;
     color: white;
+    
+
   }
   
   .User-details h3,
   .User-details h4,
   .User-details p {
     margin: 5px 0;
+    font-family: "Volkhov";
   }
   
   .User-details h3 {
